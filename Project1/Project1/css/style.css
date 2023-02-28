@@ -1,0 +1,69 @@
+/* Tooltip */
+#tooltip {
+  position: absolute;
+  display: none;
+  background: #fff;
+  box-shadow: 3px 3px 3px 0px rgb(92 92 92 / 0.5);
+  border: 1px solid #ddd;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px;
+  min-width: 160px;
+  color: #333;
+}
+.tooltip-title {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+#tooltip ul {
+  margin: 5px 0 0 0;
+  padding-left: 20px;
+}
+
+/* Legend */
+.bargraph {
+  margin: 20px 0;
+  list-style: none;
+  padding: 0;
+}
+.legend {
+  list-style-type: none;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.bargraph-btn {
+  display: inline-block;
+  margin: 0 5px 0 0;
+  cursor: pointer;
+  transition: all ease-in-out 200ms;
+}
+.bargraph-btn:hover.bargraph-btn.inactive:hover  {
+  /*opacity: 1.0;*/
+}
+.bargraph-btn.inactive {
+  opacity: 0.3;
+}
+.bargraph-symbol {
+  width: 12px;
+  height: 12px;
+  margin-right: -3px;
+  display: inline-block;
+}
+.bar {
+  fill: steelblue;
+}
+.bar.inactive {
+  opacity: 0.3;
+}
+p {
+  text-align: center;
+  font-weight: bold;
+}
+.inactive {
+  opacity: 0.3;
+}
+path.line {
+  fill: none;
+  stroke: #000;
+}
